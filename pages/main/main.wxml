@@ -1,0 +1,5 @@
+<!--pages/main/main.wxml-->
+<view class="container">
+  <image src="{{userInfo.avatarUrl}}"></image>
+  <text>Hello, {{userInfo.nickName}} from {{userInfo.city}},{{userInfo.country}}</text>
+</view>
